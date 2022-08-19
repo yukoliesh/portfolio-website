@@ -45,6 +45,30 @@ h2 {
 	margin: 1em 0;
 }
 
+.button {
+	border-radius: 10px;
+	background-color: var(--color-primary);
+	color: var(--color-beige);
+	text-align: center;
+	padding: 1em;
+}
+
+.w-30 {
+	width: 30%;
+}
+.w-50 {
+	width: 50%;
+}
+.w-70 {
+	width: 70%;
+}
+.w-100 {
+	width: 100%;
+}
+.d-block {
+	display: block;
+}
+
 /*-- Header --*/
 
 header {
@@ -62,6 +86,11 @@ header svg {
 
 header .logo-cont {
 	width: 75%;
+}
+
+header .logo-cont .logo {
+	width: 60px;
+	height: 60px;
 }
 
 header nav {
@@ -124,6 +153,7 @@ main .main-section {
 
 main .work-item {
 	display: flex;
+	margin-top: 1em;
 }
 
 main .work-item .pic-col {
@@ -185,16 +215,4 @@ footer .social-media-link {
 }
 .about-col li {
 	padding: 0 1em 0.5em 0;
-}
-.w-30 {
-	width: 30%;
-}
-.w-50 {
-	width: 50%;
-}
-.w-70 {
-	width: 70%;
-}
-.w-100 {
-	width: 100%;
 }
