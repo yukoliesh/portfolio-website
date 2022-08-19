@@ -7,6 +7,9 @@
 	--color-bodyText: #152f2d;
 	--color-pink: #ff686b;
 	--color-footer: #0d242d;
+	--font-body-text: 1.2em;
+	--positive-feedback-bg: rgba(15, 84, 80, 0.1);
+	--constructive-feedback-bg: rgba(231, 218, 130, 0.3);
 }
 
 body {
@@ -24,6 +27,22 @@ h4,
 h5 {
 	font-family: 'Secular One', sans-serif;
 	margin: 0;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+h2 {
+	font-size: 1.8em;
+}
+h3 {
+	font-size: 1.5em;
+}
+h4 {
+	font-size: 1.25em;
+}
+h5 {
+	font-size: 0.8em;
 }
 
 a {
@@ -53,6 +72,9 @@ h2 {
 	padding: 1em;
 }
 
+.w-25 {
+	width: 25%;
+}
 .w-30 {
 	width: 30%;
 }
@@ -67,6 +89,15 @@ h2 {
 }
 .d-block {
 	display: block;
+}
+.d-flex {
+	display: flex;
+}
+.m-auto {
+	margin: auto;
+}
+.flex-center {
+	justify-content: center;
 }
 
 /*-- Header --*/
@@ -215,4 +246,39 @@ footer .social-media-link {
 }
 .about-col li {
 	padding: 0 1em 0.5em 0;
+}
+
+/*-- Projects page --*/
+.project-cont {
+	padding-top: 4em;
+}
+.project-cont p {
+	font-size: var(--font-body-text);
+	line-height: calc(var(--font-body-text) * 1.5);
+}
+.project-cont .item {
+	padding-right: 1em;
+}
+.project-cont .row {
+	padding-top: 2em;
+}
+.project-cont .feedback {
+	border-radius: 10px;
+	margin-right: 1em;
+	padding: 1em;
+}
+.project-cont .positive {
+	background-color: var(--positive-feedback-bg);
+}
+.project-cont .constructive {
+	background-color: var(--constructive-feedback-bg);
+}
+.thank-you {
+	margin: 3em auto;
+}
+.secondary {
+	background-color: var(--color-secondary);
+}
+.end {
+	margin-bottom: 3em;
 }
