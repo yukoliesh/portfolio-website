@@ -70,6 +70,12 @@ h2 {
 	color: var(--color-beige);
 	text-align: center;
 	padding: 1em;
+	transition: 0.2s opacity;
+}
+
+.button:hover,
+.button:active {
+	opacity: 0.8;
 }
 
 .w-25 {
