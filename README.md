@@ -6,3 +6,4 @@
 - 08192202 - Editing README
 - 08192203 - Editing README again
 - 08242201 - Adding IDs to each section on index, about, and Simple Alternatives pages.
+- 08262201 - Modifying files for responsive. Added media query for desktop (min-width: 768px)
