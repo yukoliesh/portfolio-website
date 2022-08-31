@@ -8,3 +8,4 @@
 - 08242201 - Adding IDs to each section on index, about, and Simple Alternatives pages.
 - 08262201 - Modifying files for responsive. Added media query for desktop (min-width: 768px)
 - 08312201 - Adding another SVG file with CSS transition and animation.
+- 08312202 - Adding AOS (fade-up) and Fancybox (Mobile and desktop mockups)

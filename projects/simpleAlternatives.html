@@ -19,11 +19,18 @@
 		<title>Yuko Shiozaki Portfolio - About Yuko Shiozaki</title>
 		<link href="../img/favicon.ico" rel="shortcut icon" />
 		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../dist/aos.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;1,300&family=Secular+One&display=swap"
 			rel="stylesheet"
+		/>
+		<!-- Fancybox -->
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
 		/>
 	</head>
 	<body>
@@ -43,9 +50,9 @@
 			<!--Nav-->
 			<nav class="nav-col">
 				<ul>
-					<li><a href="../index.html">Work</a></li>
-					<li><a href="../about.html">About</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li class="bordersIn"><a href="../index.html">Work</a></li>
+					<li class="bordersIn"><a href="../about.html">About</a></li>
+					<li class="bordersIn"><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -60,16 +67,18 @@
 			</div>
 			<!-- /Product Header -->
 			<!-- Image -->
-			<picture>
-				<source
-					srcset="../img/projects/hero-image.png"
-					media="(max-width:767px)"
-				/>
-				<img
-					src="../img/projects/sa-hero-image_@2x.png"
-					alt="Simple Alternatives UIUX Design Case Study"
-				/>
-			</picture>
+			<div class="aos-item" data-aos="fade-up" data-aos-duration="2000">
+				<picture>
+					<source
+						srcset="../img/projects/hero-image.png"
+						media="(max-width:767px)"
+					/>
+					<img
+						src="../img/projects/sa-hero-image_@2x.png"
+						alt="Simple Alternatives UIUX Design Case Study"
+					/>
+				</picture>
+			</div>
 			<!--Prototype Button-->
 			<div class="project-cont">
 				<div class="button">
@@ -101,7 +110,12 @@
 			</div>
 			<!--/Info-->
 			<!--About this app-->
-			<div class="project-cont" id="overview">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="overview"
+			>
 				<h3>About this app</h3>
 				<p>
 					Simple Alternatives is a tool and support for consumers looking for
@@ -175,7 +189,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="project-cont" id="process">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="process"
+			>
 				<h3>Design Process</h3>
 				<div class="col-half m-auto">
 					<picture>
@@ -191,7 +210,12 @@
 				</div>
 			</div>
 
-			<div class="project-cont" id="analysis">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="analysis"
+			>
 				<h3>Competitive Analysis</h3>
 				<p>
 					I ran the competitive analysis on the Sustainable Shop, Earth Hero,
@@ -246,7 +270,12 @@
 					>
 				</div>
 			</div>
-			<div class="project-cont" id="approach">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="approach"
+			>
 				<h3>Approach</h3>
 				<p>
 					“Reduce” ThemeAs you may know, Sustainability stands based on 4Rs -
@@ -264,7 +293,12 @@
 					Simple Alternatives is based on the “Reduce” theme.
 				</p>
 			</div>
-			<div class="project-cont" id="userflow">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="userflow"
+			>
 				<h3>Key User Flow</h3>
 				<p>
 					One of my favorite UX processes - is to design User Flow. I carefully
@@ -290,7 +324,12 @@
 					</picture>
 				</div>
 			</div>
-			<div class="project-cont" id="lofi-v1">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="lofi-v1"
+			>
 				<h3>Lofi Wireframes v1</h3>
 				<p>
 					I created simple lofi wireframes based on the key user flow: "As a
@@ -318,7 +357,12 @@
 					>
 				</div>
 			</div>
-			<div class="project-cont" id="lofi-v2">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="lofi-v2"
+			>
 				<h3>Lofi Wireframes v2</h3>
 				<p>
 					After user testing, I modified and added some elements in the lofi
@@ -345,7 +389,12 @@
 					>
 				</div>
 			</div>
-			<div class="project-cont" id="midfi">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="midfi"
+			>
 				<h3>Midfi Wireframes</h3>
 				<p>
 					At the midfi wireframes stage, more details and steps are added to
@@ -375,7 +424,12 @@
 					>
 				</div>
 			</div>
-			<div class="project-cont" id="feedback">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="feedback"
+			>
 				<h3>Feedback</h3>
 				<p>
 					After the improvements, I sent out another survey to the same
@@ -434,7 +488,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="project-cont" id="improvements">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="improvements"
+			>
 				<h3>Improvements</h3>
 				<p>
 					I received feedback from my peers, which always enlightened my
@@ -462,7 +521,12 @@
 					>
 				</div>
 			</div>
-			<div class="project-cont" id="moodboard">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="moodboard"
+			>
 				<h3>UI Process - Mood Board</h3>
 				<p>
 					After I applied the changes with feedback and suggestions, I moved on
@@ -482,7 +546,12 @@
 					</picture>
 				</div>
 			</div>
-			<div class="project-cont" id="styleguide">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="styleguide"
+			>
 				<h3>UI Process - Style Guide</h3>
 				<p>
 					Once the mood board is set, I chose these color palettes to aim at the
@@ -510,7 +579,12 @@
 					>
 				</div>
 			</div>
-			<div class="project-cont" id="logo">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="logo"
+			>
 				<h3>UI Process - Logo</h3>
 				<p>One of my favorite UI Design processes.</p>
 				<div class="col-half m-auto">
@@ -565,7 +639,12 @@
 					>
 				</div>
 			</div>
-			<div class="project-cont" id="hifi">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="hifi"
+			>
 				<h3>Hifi Wireframes</h3>
 				<div class="row">
 					<div class="d-flex flex-center">
@@ -684,35 +763,90 @@
 					>
 				</div>
 			</div>
-			<div class="project-cont" id="mockups">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="mockups"
+			>
 				<h3>Mockups</h3>
 				<div class="row">
 					<div class="d-flex flex-center">
-						<div class="col-half item">
-							<h4>Mobile Version</h4>
-							<picture>
-								<source
-									srcset="../img/projects/sa-mobile-version-mockup.jpg"
-									media="(max-width:767px)"
-								/>
+						<div class="pic-item item">
+							<a
+								data-fancybox="gallery"
+								data-caption="Mockup - Mobile Version 01"
+								href="../img/projects/sa-Mockups-mobile01_@2x.png"
+							>
 								<img
-									src="../img/projects/sa-mobile-version-mockup_@2x.png"
+									src="../img/projects/sa-Mockups-mobile01.png"
 									alt="Simple Alternatives UIUX Design Case Study"
 								/>
-							</picture>
+							</a>
 						</div>
-						<div class="col-half item">
-							<h4>Desktop Version</h4>
-							<picture>
-								<source
-									srcset="../img/projects/sa-desktop-version-mockup.jpg"
-									media="(max-width:767px)"
-								/>
+						<div class="pic-item item">
+							<a
+								data-fancybox="gallery"
+								data-caption="Mockup - Mobile Version 02"
+								href="../img/projects/sa-Mockups-mobile02.png"
+							>
 								<img
-									src="../img/projects/sa-desktop-version-mockup_@2x.jpg"
+									src="../img/projects/sa-Mockups-mobile02.png"
 									alt="Simple Alternatives UIUX Design Case Study"
 								/>
-							</picture>
+							</a>
+						</div>
+						<div class="pic-item item">
+							<a
+								data-fancybox="gallery"
+								data-caption="Mockup - Mobile Version 03"
+								href="../img/projects/sa-Mockups-mobile03_@2x.png"
+							>
+								<img
+									src="../img/projects/sa-Mockups-mobile03.png"
+									alt="Simple Alternatives UIUX Design Case Study"
+								/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row-2">
+					<div class="d-flex flex-center">
+						<div class="pic-item item">
+							<a
+								data-fancybox="gallery"
+								data-caption="Mockup - Mobile Version 04"
+								href="../img/projects/mobile-mockup_@2x.png"
+							>
+								<img
+									src="../img/projects/mobile-mockup.jpg"
+									alt="Simple Alternatives UIUX Design Case Study"
+								/>
+							</a>
+						</div>
+						<div class="pic-item item">
+							<a
+								data-fancybox="gallery"
+								data-caption="Mockup - Desktop Version 01"
+								href="../img/projects/desktop-mockup_@2x.png"
+							>
+								<img
+									src="../img/projects/desktop-mockup.jpg"
+									alt="Simple Alternatives UIUX Design Case Study"
+								/>
+							</a>
+						</div>
+						<div class="pic-item item">
+							<a
+								data-fancybox="gallery"
+								data-caption="Mockup - Desktop Version 02"
+								href="../img/projects/desktop-mockup02_@2x.png"
+							>
+								<img
+									src="../img/projects/desktop-mockup02.jpg"
+									alt="Simple Alternatives UIUX Design Case Study"
+								/>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -725,7 +859,12 @@
 					>
 				</div>
 			</div>
-			<div class="project-cont" id="challenges">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="challenges"
+			>
 				<h3>Challenges</h3>
 				<p>
 					Designing an online shopping experience was the first time for me.
@@ -767,7 +906,12 @@
 					with empathy.
 				</p>
 			</div>
-			<div class="project-cont" id="takeaways">
+			<div
+				class="project-cont aos-item"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				id="takeaways"
+			>
 				<h3>Takeaways</h3>
 				<p>
 					Creating an online shopping web app was an excellent experience.
@@ -863,5 +1007,13 @@
 			<!-- / Social Media -->
 		</footer>
 		<!-- /Footer-->
+		<!--AOS Library-->
+		<script src="../dist/aos.js"></script>
+		<script>
+			AOS.init({
+				easing: 'ease-in-out-sine',
+			});
+		</script>
+		<!--/AOS Library-->
 	</body>
 </html>
