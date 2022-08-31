@@ -2,6 +2,7 @@
 :root {
 	--color-beige: #f3f2e5;
 	--color-primary: #0f2b54;
+	--color-primary-lowOpacity: #164080;
 	--color-secondary: #0f5450;
 	--color-yellow: #e7da82;
 	--color-bodyText: #152f2d;
@@ -89,16 +90,21 @@ h3 {
 	color: var(--color-beige);
 	text-align: center;
 	padding: 0.5em 1em;
+	transition: 0.2s opacity;
+}
+.button:hover {
+	opacity: 0.8;
+	background-color: var(--color-primary-lowOpacity);
 }
 
 .button > a {
 	color: var(--color-beige);
 }
 
-.button > a:hover,
+/* .button > a:hover,
 .button > a:active {
 	color: var(--color-pink);
-}
+} */
 
 .m-auto {
 	margin: 0 auto;
@@ -192,6 +198,14 @@ main .logo .screen-reader-only {
 main .work-item .text-col {
 	padding: 0 0 2em 0;
 }
+
+main .work-item .svg-image-cont{
+	width: 100%;
+	max-width: 100%;
+	height: auto:
+}
+
+
 
 /*-- Footer --*/
 footer {
