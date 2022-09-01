@@ -6,6 +6,7 @@
 - 08192202 - Editing README
 - 08192203 - Editing README again
 - 08242201 - Adding IDs to each section on index, about, and Simple Alternatives pages.
-- 08262201 - Modifying files for responsive. Added media query for desktop (min-width: 768px)
-- 08312201 - Adding another SVG file with CSS transition and animation.
-- 08312202 - Adding AOS (fade-up) and Fancybox (Mobile and desktop mockups)
+- 08262201 (Task 1.7) - Modifying files for responsive. Added media query for desktop (min-width: 768px)
+- 08312201 (Task 1.8) - Adding another SVG file with CSS transition and animation.
+- 08312202 (Task 1.8) - Adding AOS (fade-up) and Fancybox (Mobile and desktop mockups)
+- 08312203 (Task 1.8) - Adding task# on README for better visibility
