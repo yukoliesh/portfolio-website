@@ -10,3 +10,4 @@
 - 08312201 (Task 1.8) - Adding another SVG file with CSS transition and animation.
 - 08312202 (Task 1.8) - Adding AOS (fade-up) and Fancybox (Mobile and desktop mockups)
 - 08312203 (Task 1.8) - Adding task# on README for better visibility
+- 09062201 (Task 2.1) - Adding JavaScript file and console.log
