@@ -122,10 +122,9 @@ p {
 
 header {
 	display: flex;
-	justify-content: center;
 	margin: 0 auto;
 	padding: 2em;
-	flex-wrap: wrap;
+	position: relative;
 }
 
 header > svg {
@@ -135,8 +134,12 @@ header > svg {
 
 header .logo-col,
 header .nav-col {
-	width: auto;
+	width: 50%;
 }
+header .nav-col li:not(:first-child) {
+  display: none;
+}
+
 header .logo-cont {
 	width: 60px;
 }
@@ -147,7 +150,6 @@ header > .logo-cont > .logo {
 }
 
 header > nav {
-	width: auto;
 	text-align: right;
 }
 
@@ -199,6 +201,35 @@ header > nav > ul > li.bordersIn > a:hover:after {
 	opacity: 1;
 	transform: translateY(0px);
 }
+
+/*-- Mobile Nav --*/
+header.navtoggle.responsive{
+	background-color: var(--color-yellow);
+}
+header.navtoggle.responsive ul{
+	margin: 0;
+}
+header.navtoggle.responsive li  {
+  display: block;
+}
+header.navtoggle.responsive nav {
+  padding: 0 0 0;
+}
+header.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+}
+header.navtoggle.responsive li:first-child  {
+  padding: 0 0 10px;
+}
+header.navtoggle.responsive .logo-col{
+	opacity: 0;
+}
+header.navtoggle.responsive > nav > ul > li.bordersIn > a:hover,
+header.navtoggle.responsive > nav > ul > li.bordersIn > a:active{
+	color: var(--color-pink);
+}
+
 
 /*-- /Header --*/
 /*-- Main --*/
@@ -329,16 +360,23 @@ footer .social-media-link {
 	header {
 		width: 80%;
 		flex-wrap: nowrap;
+		/* justify-content: center; */
 	}
 	header > svg {
 		width: 60px;
 		height: 60px;
 	}
 	header .logo-col {
-		width: 70%;
+		width: 50%;
 	}
 	header .nav-col {
-		width: 70%;
+		width: 50%;
+	}
+	header .nav-col li:not(:first-child) {
+  	display: inline-block;
+	}
+	header .nav-col li:first-child {
+  	display: none;
 	}
 	header .logo-cont {
 		width: 60px;

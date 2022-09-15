@@ -12,3 +12,4 @@
 - 08312203 (Task 1.8) - Adding task# on README for better visibility
 - 09062201 (Task 2.1) - Adding JavaScript file and console.log
 - 09062202 (Task 2.1) - Adding JavaScript file and console.log to about and simpleAlternative pages.
+- 09062202 (Task 2.3) - Adding fuctions to javascript file for nav menu (mobile/desktop) and adding more styling.

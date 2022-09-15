@@ -27,7 +27,8 @@
 		/>
 	</head>
 	<body>
-		<header id="top">
+		<div id="top"></div>
+		<header id="myNavtoggle" class="navtoggle">
 			<!--Logo-->
 			<div class="logo-col">
 				<div class="logo-cont">
@@ -43,9 +44,20 @@
 			<!--Nav-->
 			<nav class="nav-col">
 				<ul>
-					<li class="bordersIn"><a href="index.html">Work</a></li>
-					<li class="bordersIn"><a href="about.html">About</a></li>
-					<li class="bordersIn"><a href="#contact">Contact</a></li>
+					<li>
+						<a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+							<i class="fas fa-bars"></i>
+						</a>
+					</li>
+					<li class="bordersIn aos-item" data-aos="fade-left">
+						<a href="index.html">Work</a>
+					</li>
+					<li class="bordersIn aos-item" data-aos="fade-left">
+						<a href="about.html">About</a>
+					</li>
+					<li class="bordersIn aos-item" data-aos="fade-left">
+						<a href="#contact" onclick="menuToggle()">Contact</a>
+					</li>
 				</ul>
 			</nav>
 		</header>
