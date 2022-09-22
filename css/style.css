@@ -386,6 +386,13 @@ footer .social-media-link {
 	header .nav-col li:first-child {
   	display: none;
 	}
+	/*-- for nav bg --*/
+	header.navtoggle.responsive{
+		background-color: var(--color-beige);
+	}
+	header.navtoggle.responsive .logo-col{
+		opacity: 1;
+	}
 	header .logo-cont {
 		width: 60px;
 	}

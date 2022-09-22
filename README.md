@@ -14,3 +14,4 @@
 - 09062202 (Task 2.1) - Adding JavaScript file and console.log to about and simpleAlternative pages.
 - 09142201 (Task 2.3) - Adding fuctions to javascript file for nav menu (mobile/desktop) and adding more styling.
 - 09142202 (Task 2.3) - Adding smooth scrolling (jQuery) to pages
+- 09222201 (Task 2.5) - Fixing errors from linters
