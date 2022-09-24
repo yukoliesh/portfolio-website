@@ -18,3 +18,4 @@
 - 09222202 (Task 2.5) - Fixing more errors
 - 09232201 (Task 2.6 - Final) - Adding prototype video, lightbox and fixing items after usability testing.
 - 09232202 (Task 2.6 - Final) - Modifying css file, removing lightbox
+- 09232203 (Task 2.6 - Final) - More modifying... css, simpleAlternatives.html files. Added another final product image for Solution section.

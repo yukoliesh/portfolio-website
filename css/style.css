@@ -429,6 +429,9 @@ footer .social-media-link {
 	main .work-item .text-col {
 		padding-left: 1em;
 	}
+	main .main-section{
+		margin: 5em 0;
+	}
 	main .main-section .bdr-title{
 		width: 40%;
 	}
