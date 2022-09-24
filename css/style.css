@@ -116,6 +116,7 @@ p {
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
+	font-size: 1em;
 }
 
 /*-- Header --*/
@@ -263,6 +264,10 @@ main .video-cont{
 }
 main .work-item .text-col {
 	padding: 0 0 2em 0;
+}
+main .work-item .text-col,
+main .work-item .text-col-sm{
+	font-size: 1.25em;
 }
 
 main .work-item .svg-image-cont{
@@ -426,8 +431,15 @@ footer .social-media-link {
 	main .work-item .text-col {
 		width: 50%;
 	}
-	main .work-item .text-col {
+	main .work-item .text-col, 
+	main .work-item .text-col-sm {
 		padding-left: 1em;
+	}
+	main .work-item .pic-col-sm {
+		width: 30%;
+	}
+	main .work-item .text-col-sm{
+		width: 70%;
 	}
 	main .main-section{
 		margin: 5em 0;
