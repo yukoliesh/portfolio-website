@@ -16,4 +16,5 @@
 - 09142202 (Task 2.3) - Adding smooth scrolling (jQuery) to pages
 - 09222201 (Task 2.5) - Fixing errors from linters
 - 09222202 (Task 2.5) - Fixing more errors
-- 09232201 (Task 2.6 - Final!) - Adding prototype video, lightbox and fixing items after usability testing.
+- 09232201 (Task 2.6 - Final) - Adding prototype video, lightbox and fixing items after usability testing.
+- 09232202 (Task 2.6 - Final) - Modifying css file, removing lightbox
