@@ -42,6 +42,7 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/panzoom.css"
 		/>
+		<link href="../lightbox2-2.11.3/src/css/lightbox.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="top"></div>
@@ -89,20 +90,27 @@
 			<!--Container Wrapper-->
 			<!-- Product Header -->
 			<div id="title">
-				<h1>Simple Alternatives</h1>
-				<h2>UIUX Design Case Study - eCommerce Responsive Web App Project</h2>
+				<h1>
+					Simple Alternatives
+					<div class="bdr-title"></div>
+				</h1>
+				<h2>
+					UIUX Design Case Study - Plastic-free eCommerce Responsive Web App
+					Project
+				</h2>
 			</div>
 			<!-- /Product Header -->
 			<!-- Image -->
 			<div class="aos-item" data-aos="fade-up" data-aos-duration="2000">
-				<picture>
+				<picture id="myPanzoom" class="panzoom is-draggable">
 					<source
-						srcset="../img/projects/hero-image.png"
+						srcset="../img/projects/sa-Mockups-mobile01.png"
 						media="(max-width:767px)"
 					/>
 					<img
-						src="../img/projects/sa-hero-image_@2x.png"
+						src="../img/projects/sa-Mockups-mobile01_@2x.png"
 						alt="Simple Alternatives UIUX Design Case Study"
+						class="panzoom__content"
 					/>
 				</picture>
 			</div>
@@ -137,6 +145,26 @@
 				</div>
 			</div>
 			<!--/Info-->
+			<!--Prototype Video-->
+			<div class="video-cont">
+				<div style="position: relative; padding-bottom: 52.5%; height: 0">
+					<iframe
+						src="https://www.loom.com/embed/f0c79fa04c5741c099e5990b6fac883d"
+						frameborder="0"
+						webkitallowfullscreen
+						mozallowfullscreen
+						allowfullscreen
+						aria-label="Prototype Video"
+						style="
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+						"
+					></iframe>
+				</div>
+			</div>
 			<!--About this app-->
 			<div
 				class="project-cont aos-item"
@@ -146,11 +174,8 @@
 			>
 				<h3>About this app</h3>
 				<p>
-					Simple Alternatives is a tool and support for consumers looking for
-					more sustainable products, don't know where to start to get good
-					quality eco-friendly products, or are confused about which
-					“eco-friendly” are genuinely eco-friendly. Their motivations are all
-					good. They want to do a good thing for our planet.
+					Simple Alternatives is a tool and supports for consumers who are
+					looking for more sustainable products that they can trust.
 				</p>
 				<div class="d-flex">
 					<div class="img-col">
@@ -167,26 +192,19 @@
 					</div>
 					<div class="text-col">
 						<h4>Problem</h4>
-						<p><b>Only 5% of plastic is being recycled</b></p>
+						<p><b>Only 5% of plastic is being recycled!</b></p>
 						<p>We are in a massive plastic crisis right now.</p>
 						<p>
 							Studies show after China banned most US plastic exports, only 5%
 							of plastic is being recycled as of May 2022. And the remaining
 							goes to the landfill or the ocean. If the plastic goes to the sea,
 							it eventually becomes microplastics that measure less than 5mm (or
-							nano plastics smaller than 5mm). Fish or other aquatic animals
-							think it's food so that they can consume it. After all, we could
-							end up eating the fish, for example. After I read the studies,
-							that alerts me to do something as a consumer.
+							nano plastics smaller than 5mm).
 						</p>
 						<p>
-							Do you want to eat fish that has been consuming plastics? I don't.
-						</p>
-						<p>
-							Plastics are everywhere when you look around your household. In
-							the bathroom, in the kitchen, in the office, in the living room,
-							in your clothing. EVERYWHERE.So how do we reduce buying or using
-							plastics and become more sustainable?
+							Plastics are everywhere when you look around your household. So
+							how do we reduce buying or using plastics and become more
+							sustainable?
 						</p>
 					</div>
 				</div>
@@ -194,11 +212,11 @@
 					<div class="img-col">
 						<picture>
 							<source
-								srcset="../img/projects/SA-Solution.png"
+								srcset="../img/projects/sa-mobile-mockup01.png"
 								media="(max-width:767px)"
 							/>
 							<img
-								src="../img/projects/SA-Solution_@2x.png"
+								src="../img/projects/sa-mobile-mockup01_@2x.png"
 								alt="Simple Alternatives Sustainability goal"
 							/>
 						</picture>
@@ -302,29 +320,6 @@
 				class="project-cont aos-item"
 				data-aos="fade-up"
 				data-aos-duration="1000"
-				id="approach"
-			>
-				<h3>Approach</h3>
-				<p>
-					“Reduce” ThemeAs you may know, Sustainability stands based on 4Rs -
-					“Recycle,” “Reduce,” “Reuse,” and “Rethink” (sometimes you find 5Rs
-					depending on your beliefs). So what would be the closest and easiest
-					thing to do to participate in a Sustainable Lifestyle? I think it's
-					recycling. So I created ReTHNK app concept, which lets you scan the
-					item to seek the potential of recycling (please check my other project
-					ReTHNK app, in my portfolio. 😊 )
-				</p>
-				<p>
-					Plastics are the third most significant contributor to solid waste. If
-					we reduce plastic usage or don’t use it at all, we can contribute to
-					less waste and low impact on the plastic crisis. So the concept of
-					Simple Alternatives is based on the “Reduce” theme.
-				</p>
-			</div>
-			<div
-				class="project-cont aos-item"
-				data-aos="fade-up"
-				data-aos-duration="1000"
 				id="userflow"
 			>
 				<h3>Key User Flow</h3>
@@ -340,7 +335,7 @@
 					purchase more than one item at a time."
 				</p>
 				<div class="col-half m-auto">
-					<picture id="myPanzoom" class="panzoom is-draggable">
+					<picture>
 						<source
 							srcset="../img/projects/sa-key-user-flow.png"
 							media="(max-width:767px)"
@@ -348,7 +343,6 @@
 						<img
 							src="../img/projects/sa-key-user-flow_@2x.png"
 							alt="Simple Alternatives UIUX Design Case Study"
-							class="panzoom__content"
 						/>
 					</picture>
 				</div>
@@ -366,16 +360,22 @@
 					purchase more than one item at a time."
 				</p>
 				<div class="col-half m-auto">
-					<picture>
-						<source
-							srcset="../img/projects/sa-lofi-v1.png"
-							media="(max-width:767px)"
-						/>
-						<img
-							src="../img/projects/sa-lofi-v1_@2x.png"
-							alt="Simple Alternatives UIUX Design Case Study"
-						/>
-					</picture>
+					<a
+						href="../img/projects/sa-lofi-v1_@2x.png"
+						data-lightbox="image-1"
+						data-title="Lofi Wireframes"
+					>
+						<picture>
+							<source
+								srcset="../img/projects/sa-lofi-v1.png"
+								media="(max-width:767px)"
+							/>
+							<img
+								src="../img/projects/sa-lofi-v1_@2x.png"
+								alt="Simple Alternatives UIUX Design Case Study"
+							/>
+						</picture>
+					</a>
 				</div>
 				<div class="project-cont">
 					<a
@@ -398,16 +398,22 @@
 					wireframes for a better experience.
 				</p>
 				<div class="col-half m-auto">
-					<picture>
-						<source
-							srcset="../img/projects/sa-lofi-v2.png"
-							media="(max-width:767px)"
-						/>
-						<img
-							src="../img/projects/sa-lofi-v2_@2x.png"
-							alt="Simple Alternatives UIUX Design Case Study"
-						/>
-					</picture>
+					<a
+						href="../img/projects/sa-lofi-v2_@2x.png"
+						data-lightbox="image-1"
+						data-title="Lofi Wireframes"
+					>
+						<picture>
+							<source
+								srcset="../img/projects/sa-lofi-v2.png"
+								media="(max-width:767px)"
+							/>
+							<img
+								src="../img/projects/sa-lofi-v2_@2x.png"
+								alt="Simple Alternatives UIUX Design Case Study"
+							/>
+						</picture>
+					</a>
 				</div>
 				<div class="project-cont">
 					<a
@@ -433,16 +439,22 @@
 					the results AFTER the testing.
 				</p>
 				<div class="col-half m-auto">
-					<picture>
-						<source
-							srcset="../img/projects/sa-midfi.png"
-							media="(max-width:767px)"
-						/>
-						<img
-							src="../img/projects/sa-midfi_@2x.png"
-							alt="Simple Alternatives UIUX Design Case Study"
-						/>
-					</picture>
+					<a
+						href="../img/projects/sa-midfi_@2x.png"
+						data-lightbox="image-1"
+						data-title="Lofi Wireframes"
+					>
+						<picture>
+							<source
+								srcset="../img/projects/sa-midfi.png"
+								media="(max-width:767px)"
+							/>
+							<img
+								src="../img/projects/sa-midfi_@2x.png"
+								alt="Simple Alternatives UIUX Design Case Study"
+							/>
+						</picture>
+					</a>
 				</div>
 				<div class="project-cont">
 					<a
@@ -1053,7 +1065,7 @@
 			});
 		</script>
 		<!--/AOS Library-->
-
+		<script src="../lightbox2-2.11.3/src/js/lightbox.js"></script>
 		<script src="../js/scripts.js"></script>
 	</body>
 </html>

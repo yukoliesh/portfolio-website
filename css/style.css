@@ -41,7 +41,7 @@ h1 {
 	font-size: 2.5em;
 }
 h2 {
-	font-size: 1.8em;
+	font-size: 2em;
 }
 h3 {
 	font-size: 1.5em;
@@ -245,7 +245,11 @@ main {
 	margin: auto;
 	padding: 1em;
 }
-main .logo .screen-reader-only {
+main .hero-img {
+	width: 80%;
+	margin: 0 auto;
+}
+main .hero-img .screen-reader-only {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	height: 1px;
@@ -254,7 +258,9 @@ main .logo .screen-reader-only {
 	white-space: nowrap;
 	width: 1px;
 }
-
+main .video-cont{
+	margin: 2em auto;
+}
 main .work-item .text-col {
 	padding: 0 0 2em 0;
 }
@@ -264,7 +270,12 @@ main .work-item .svg-image-cont{
 	max-width: 100%;
 	height: auto:
 }
-
+main .bdr-title{
+	width: 80%;
+	margin-bottom: 2em;
+	border: 7px solid #E7DA82;
+	box-shadow: 10px 10px 1px #152F2D;
+}
 
 
 /*-- Footer --*/
@@ -403,7 +414,7 @@ footer .social-media-link {
 		padding: 2em;
 		width: 900px;
 	}
-	main .logo {
+	main .hero-img {
 		width: 30%;
 		margin: 0 auto;
 	}
@@ -417,6 +428,9 @@ footer .social-media-link {
 	}
 	main .work-item .text-col {
 		padding-left: 1em;
+	}
+	main .main-section .bdr-title{
+		width: 40%;
 	}
 	/*--About--*/
 	.about-cont {
